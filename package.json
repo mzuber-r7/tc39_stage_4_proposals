@@ -1,0 +1,23 @@
+{
+  "name": "tc39-stage-4-proposals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "babel": [
+    "./.babelrc"
+  ],
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/preset-env": "^7.3.4",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
